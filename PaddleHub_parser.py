@@ -1,17 +1,24 @@
 # -*- coding: utf-8 -*-
 # weibifan 2022-10-5
-# 中文句法解析  废弃
+# 中文句法解析  无法升级到高版本
 
 '''
+https://www.paddlepaddle.org.cn/hubdetail?name=ddparser&en_category=SyntacticAnalysis
+
+python:>=3.6.0,<3.8.0.
+paddlepaddle:>=1.8.2,<2.0
+LAC:>=0.1.4
+
+ModuleNotFoundError: No module named 'LAC'
+pip install LAC
 
 ModuleNotFoundError: No module named 'ddparser'
+pip install ddparser
 
-
-ddparser
-LAC
+Exception: Feed list must be given under static mode.
 
 '''
-import cv2
+# import cv2
 import paddlehub as hub
 
 module = hub.Module(name="ddparser")

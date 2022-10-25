@@ -3,7 +3,7 @@
 # PaddleHub，百度主导的PLM模型库，类似于HuggingFace Hub，允许第3方的PLMs
 # 主要完成PaddleHub上模型的下载和使用，不包括微调。
 
-"""  在2021年2月更新过一次，再无更新。大部分模型无法使用
+r"""  在2021年2月更新过一次，再无更新。大部分模型无法使用
 预训练模型库：https://www.paddlepaddle.org.cn/hub
 
 第1种方式：命令行方式
